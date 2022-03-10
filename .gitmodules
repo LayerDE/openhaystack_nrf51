@@ -1,0 +1,3 @@
+[submodule "blessed"]
+	path = blessed
+	url = https://github.com/LayerDE/blessed.git
