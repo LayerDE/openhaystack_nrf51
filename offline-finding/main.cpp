@@ -62,7 +62,7 @@ void fill_adv_template_from_key() {
 	offline_finding_adv_template[29] = public_key[0] >> 6;
 }
 
-int RNG(uint8_t* dest, unsigned int size){
+extern "C" int RNG(uint8_t* dest, unsigned int size){
 	for(unsigned int x = 0; x < size; x++)
 		dest[x] = 0;
 	return 0;
